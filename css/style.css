@@ -1,10 +1,12 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FCCFCC;
+  color: #383838;
+  font-size: 16px;
+  font-family: 'SF Pro', 'Helvetica', sans-serif;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.7); /*Edited the opacity from 0.5 to 0.7 for personal preference.*/
   float: left;
   position: fixed;
   width: 100%;
@@ -50,3 +52,46 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+figcaption {
+  font-size: 0.75em;
+  font-style: italic;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 3em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/*Added <br> tags for each p element to make the article more legible.*/
+br {
+  line-height: 1.75em;
+}
+
+.author {
+  font-weight: bold;
+  line-height: 6em;
+}
+
+a:link {color: #FFFFFF;}
+a:hover {color: #ffbab5;}
+/*a:hover {color: #FFC15D;}*/
+a:visited {color: #FCCFCC;}
+a:active {color: #ffa8d4;}
